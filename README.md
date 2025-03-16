@@ -6,7 +6,8 @@ In this exercise, you will make smpl-x work and fit smpl-x models to images.
 
 Make sure `libprotobuf-dev protobuf-compiler libopencv-dev libboost-all-dev libhdf5-dev libatlas-base-dev` are installed
 
-1. copy all files from `human_models_data` into `human_models_exercise`
+1. copy all files from `human_models_data.zip` into `human_models_exercise`
+2. extract the files from `models_smplx_v1_1.zip` into `human_models_exercise`
 2. In the `human_models_exercise` folder run the command `git submodule update --init --recursive` to fetch the complete content of the submodules
    It should download the smplify-x, openpose, human_body_prior, torch-mesh-isect and cuda_samples submodules and their dependencies
 
