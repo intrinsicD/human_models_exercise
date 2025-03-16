@@ -1,0 +1,16 @@
+[submodule "smplify-x"]
+	path = smplify-x
+	url = https://github.com/vchoutas/smplify-x.git
+[submodule "openpose"]
+	path = openpose
+	url = https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
+[submodule "torch-mesh-isect"]
+	path = torch-mesh-isect
+	url = https://github.com/intrinsicD/torch-mesh-isect_fork.git
+[submodule "cuda-samples"]
+	path = cuda-samples
+	url = https://github.com/NVIDIA/cuda-samples.git
+[submodule "human_body_prior"]
+	path = human_body_prior
+	url = https://github.com/intrinsicD/human_body_prior_cvpr19_fork.git
+	branch = cvpr19

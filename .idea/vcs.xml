@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cuda-samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/human_body_prior" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/openpose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/openpose/3rdparty/caffe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/openpose/3rdparty/pybind11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/openpose/3rdparty/pybind11/tools/clang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/smplify-x" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/torch-mesh-isect" vcs="Git" />
+  </component>
+</project>

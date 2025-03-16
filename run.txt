@@ -1,0 +1,11 @@
+#run from inside openpose directory
+./build/examples/openpose/openpose.bin --image_dir ../smplify-x/data/images --write_json ../smplify-x/data/keypoints/ --display 0 --render_pose 0 --face 0 --hand 0
+
+#run inside human_models_exercise directory
+python smplify-x/smplifyx/main.py --config smplify-x/cfg_files/fit_smplx.yaml --data_folder data/ --output_folder output/ --visualize="True" --model_folder models_smplx_v1_1/models --vposer_ckpt vposer_v1_0/ --part_segm_fn smplx_parts_segm.pkl
+
+#renders an output mesh
+python smplify-x/smplifyx/render_results.py --mesh_fns output/
+
+#renders a pkl file (smplx model from fitted parameters)
+python smplify-x/smplifyx/render_pkl.py --config smplify-x/cfg_files/fit_smplx.yaml --data_folder data/ --output_folder output/ --visualize="True" --model_folder models_smplx_v1_1/models --vposer_ckpt vposer_v1_0/ --part_segm_fn smplx_parts_segm.pkl --pkl avg_params.pkl
